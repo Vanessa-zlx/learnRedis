@@ -1,0 +1,21 @@
+string:
+    单个增删改查：
+        creat & update :set
+        retrieve : get
+        delete : del
+
+    多个设置/查询：
+        mset key value key value...
+        mget key key ...
+
+    一个问题：如何存有空格等空字符的string value
+        解决——用双引号括起来
+hash:
+    hset key field value
+    hget 
+    
+    hmget key field value field value ...
+    hmset
+    hgetall
+
+    hsetnx key field value
